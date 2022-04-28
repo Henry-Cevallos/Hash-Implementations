@@ -17,8 +17,9 @@ the dictionary, if not then it is a misspelled word and the program will suggest
 corrections for every word misspelled.
 
 ## Steps To Run
-
+```sh
 g++ spellChecker -o spell_check.cc -std=c++17
-./spellChecker wordsEn.txt <filename>
 
+./spellChecker wordsEn.txt <filename>
+```
 *<filename> should be the txt file you want to spell check.
